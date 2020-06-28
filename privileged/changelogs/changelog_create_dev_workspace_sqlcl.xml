@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog 
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+  <changeSet author="tim" id="create_dev_workspace_v1">
+     <n0:runOracleScript objectName="create_dev_workspace" ownerName="DEV_WS" sourceType="FILE">
+         <n0:source><![CDATA[/git/oraclebase/liquibase_sqlcl_apex_demo/privileged/scripts/create_dev_workspace.sql]]></n0:source>
+     </n0:runOracleScript>
+  </changeSet>
+</databaseChangeLog>

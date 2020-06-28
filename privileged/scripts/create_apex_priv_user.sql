@@ -1,0 +1,2 @@
+CREATE USER apex_priv_user IDENTIFIED BY apex_priv_user QUOTA UNLIMITED ON users;
+GRANT DBA, APEX_ADMINISTRATOR_ROLE TO apex_priv_user;

@@ -1,0 +1,1 @@
+CREATE SEQUENCE tab1_seq;
