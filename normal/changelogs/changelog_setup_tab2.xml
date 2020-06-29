@@ -5,7 +5,7 @@
   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                       http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
 
-    <changeSet author="tim" id="tab2_seq">
+    <changeSet author="tim" id="tab2_seq" failOnError="true">
       <sqlFile dbms="oracle"
                endDelimiter=";"
                path="../scripts/tab2_seq.sql"
@@ -13,7 +13,7 @@
                splitStatements="true"
                stripComments="false"/>
     </changeSet>
-    <changeSet author="tim" id="tab2">
+    <changeSet author="tim" id="tab2" failOnError="true">
       <sqlFile dbms="oracle"
                endDelimiter=";"
                path="../scripts/tab2.sql"
