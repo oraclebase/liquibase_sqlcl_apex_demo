@@ -21,7 +21,7 @@
                splitStatements="true"
                stripComments="false"/>
     </changeSet>
-    <changeSet author="tim" id="get_tab1_count">
+    <changeSet author="tim" id="get_tab1_count" runOnChange="true">
       <sqlFile dbms="oracle"
                endDelimiter=";"
                path="../scripts/get_tab1_count.sql"
