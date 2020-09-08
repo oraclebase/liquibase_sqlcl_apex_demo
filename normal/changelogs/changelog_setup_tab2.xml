@@ -13,7 +13,7 @@
                splitStatements="true"
                stripComments="false"/>
     </changeSet>
-    <changeSet author="tim" id="tab2" failOnError="true">
+    <changeSet author="tim" id="tab2">
       <sqlFile dbms="oracle"
                endDelimiter=";"
                path="../scripts/tab2.sql"
